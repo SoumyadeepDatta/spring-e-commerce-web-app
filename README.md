@@ -21,6 +21,7 @@ Now you can start working on your local machine.
 1. Use relevant commit message.
 2. Give brief description to your pull request.
 3. `crud` branch is for creating APIs only.
+4. Don't change any configuration files.
 ### Prerequisite
 1. Mongodb with the latest version preferable.
 2. JAVA 8 (Some functions may not work properly with the later versions).
