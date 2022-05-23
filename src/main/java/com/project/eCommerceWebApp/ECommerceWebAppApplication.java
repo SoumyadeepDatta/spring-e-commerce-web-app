@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ECommerceWebAppApplication {
 
 	public static void main(String[] args) {
+		//hello
 		SpringApplication.run(ECommerceWebAppApplication.class, args);
 	}
 
