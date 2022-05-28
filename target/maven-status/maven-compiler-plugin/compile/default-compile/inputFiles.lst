@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\controllers\UserController.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\User.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\repositories\AdminRepository.java
@@ -7,3 +8,12 @@ C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\Admin.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\repositories\UserRepository.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\controllers\AdminController.java
+=======
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/entities/User.java
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/repositories/UserRepository.java
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/ECommerceWebAppApplication.java
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/controllers/UserController.java
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/services/SequenceGeneratorService.java
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/entities/Product.java
+/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/entities/DBSequence.java
+>>>>>>> 3d43cbb4c11a5ece1e4f2dc0fc8cb88fd91a7938
