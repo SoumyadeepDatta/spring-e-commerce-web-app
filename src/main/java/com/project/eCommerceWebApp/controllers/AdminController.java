@@ -2,8 +2,8 @@ package com.project.eCommerceWebApp.controllers;
 
 import java.util.Optional;
 
-import com.project.eCommerceWebApp.entities.User;
-import com.project.eCommerceWebApp.repositories.UserRepository;
+import com.project.eCommerceWebApp.entities.Admin;
+import com.project.eCommerceWebApp.repositories.AdminRepository;
 import com.project.eCommerceWebApp.services.SequenceGeneratorService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,11 +20,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/user")
-public class UserController {
-    
-    @Autowired
-    private UserRepository userRepository;
+@RequestMapping("/admin")
+
+public class AdminController {
+
+    @Autowired 
+    private AdminRepository adminRepository;
+
 
     /**
      * Add the following two lines in your controller
@@ -34,64 +36,65 @@ public class UserController {
     private SequenceGeneratorService sequenceGeneratorService;
 
     @PostMapping("/add")
-    public ResponseEntity<?> addUser(@RequestBody User user) {
+    public ResponseEntity<?> addadmin(@RequestBody Admin admin) {
 
         /**
          * This line is added to generate the id of the 
          * newly received entity and increment it automatically.
          */
-        user.setId(sequenceGeneratorService.getSequenceNumber(User.SEQUENCE_NAME));
+        admin.setId(sequenceGeneratorService.getSequenceNumber(Admin.SEQUENCE_NAME));
 
-        return ResponseEntity.ok(this.userRepository.save(user));
+        return ResponseEntity.ok(this.adminRepository.save(admin));
 
     }
 
     @GetMapping("/getAll")
-    public ResponseEntity<?> findAllUser() {
+    public ResponseEntity<?> findAlladmin() {
 
-        return ResponseEntity.ok(this.userRepository.findAll());
+        return ResponseEntity.ok(this.adminRepository.findAll());
         
     }
 
-    @GetMapping("/getById/{uid}")
-    public ResponseEntity<?> getUserById(@PathVariable("uid") Long uid) {
+    @GetMapping("/getById/{aid}")
+    public ResponseEntity<?> getadminById(@PathVariable("aid") Long aid) {
 
-        if(!userRepository.existsById(uid)) {
+        if(!adminRepository.existsById(aid)) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
 
         else {
-            return ResponseEntity.ok(this.userRepository.findById(uid));
+            return ResponseEntity.ok(this.adminRepository.findById(aid));
         }
 
     }
 
-    @DeleteMapping("/delete/{uid}")
-    public ResponseEntity<?> deleteUserById(@PathVariable("uid") Long uid) {
+    @DeleteMapping("/delete/{aid}")
+    public ResponseEntity<?> deleteadminById(@PathVariable("aid") Long aid) {
 
-        // Optional<User> user = userRepository.findById(uid);
+        // Optional<admin> admin = adminRepository.findById(aid);
 
-        if(!userRepository.existsById(uid)) {
+        if(!adminRepository.existsById(aid)) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
 
         else {
-            this.userRepository.deleteById(uid);
-            return new ResponseEntity<>(uid, HttpStatus.OK);
+            this.adminRepository.deleteById(aid);
+            return new ResponseEntity<>(aid, HttpStatus.OK);
         }
 
     }
 
-    @PutMapping("/update/{uid}")
-    public ResponseEntity<?> updateUser(@PathVariable Long uid, @RequestBody User user) {
+    @PutMapping("/update/{aid}")
+    public ResponseEntity<?> updateadmin(@PathVariable Long aid, @RequestBody Admin admin) {
 
-        if(!userRepository.existsById(uid)) {
+        if(!adminRepository.existsById(aid)) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         else {
-            user.setId(uid);
-            return ResponseEntity.ok(this.userRepository.save(user));
+            admin.setId(aid);
+            return ResponseEntity.ok(this.adminRepository.save(admin));
 
         }
     }
+    
 }

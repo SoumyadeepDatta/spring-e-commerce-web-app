@@ -2,5 +2,8 @@ com\project\eCommerceWebApp\repositories\UserRepository.class
 com\project\eCommerceWebApp\controllers\UserController.class
 com\project\eCommerceWebApp\services\SequenceGeneratorService.class
 com\project\eCommerceWebApp\entities\User.class
+com\project\eCommerceWebApp\entities\Admin.class
 com\project\eCommerceWebApp\entities\DBSequence.class
+com\project\eCommerceWebApp\repositories\AdminRepository.class
 com\project\eCommerceWebApp\ECommerceWebAppApplication.class
+com\project\eCommerceWebApp\controllers\AdminController.class

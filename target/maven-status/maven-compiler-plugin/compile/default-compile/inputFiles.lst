@@ -1,6 +1,9 @@
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\controllers\UserController.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\User.java
+C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\repositories\AdminRepository.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\services\SequenceGeneratorService.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\DBSequence.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\ECommerceWebAppApplication.java
+C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\Admin.java
 C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\repositories\UserRepository.java
+C:\Users\User\Desktop\spring project\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\controllers\AdminController.java
