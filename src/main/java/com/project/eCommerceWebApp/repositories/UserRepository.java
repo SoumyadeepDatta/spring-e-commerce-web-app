@@ -8,5 +8,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  * MongoRepository<Entity, EntityIDType>
  */
 public interface UserRepository extends MongoRepository<User, Long>{
-    
+    //Fuchka
 }

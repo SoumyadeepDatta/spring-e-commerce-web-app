@@ -11,15 +11,15 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "users")
-public class User {
+@Document(collection = "admins")
 
+public class Admin {
     /**
      * The following two lines are added to make the id
      * auto-generated (auto-incremented).
      */
     @Transient
-    public static final String SEQUENCE_NAME = "user_sequence";
+    public static final String SEQUENCE_NAME = "admin_sequence";
     
     /**
      * ID should be preferably of type "Long" according
@@ -32,9 +32,5 @@ public class User {
     private String contactno;
     private String email;
     private String password;
-    private String address;
-    private String nationality;
-    private String d_address; 
-    //delivery address
-    
+
 }
