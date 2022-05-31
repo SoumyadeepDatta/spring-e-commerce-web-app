@@ -1,7 +1,10 @@
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/entities/User.java
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/repositories/UserRepository.java
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/ECommerceWebAppApplication.java
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/controllers/UserController.java
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/services/SequenceGeneratorService.java
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/entities/Product.java
-/home/soumyadeep/GitHub/spring-e-commerce-web-app/src/main/java/com/project/eCommerceWebApp/entities/DBSequence.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\Admin.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\ECommerceWebAppApplication.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\User.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\repositories\UserRepository.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\services\SequenceGeneratorService.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\controllers\AdminController.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\DBSequence.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\entities\Product.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\controllers\UserController.java
+C:\Users\usr\Documents\GitHub\spring-e-commerce-web-app\src\main\java\com\project\eCommerceWebApp\repositories\AdminRepository.java
